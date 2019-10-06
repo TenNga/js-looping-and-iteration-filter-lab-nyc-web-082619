@@ -1,4 +1,4 @@
-const driver = [];
+var driver = [];
 
 function findMatching(name) {
   drivers.filter(function(driver) {
