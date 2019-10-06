@@ -1,6 +1,5 @@
 function findMatching(name) {
-  var matchDriver = []
-  for(const driver in drivers) {
-    
-  }
+  drivers.filter(function(driver) {
+    return driver.name === name;
+  })
 }
