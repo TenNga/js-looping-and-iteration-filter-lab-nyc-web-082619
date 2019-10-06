@@ -1,6 +1,5 @@
-const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
 
-function findMatching(name) {
+function findMatching(drivers) {
   drivers.filter(function(driver) {
     return driver === name;
   })
