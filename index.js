@@ -1,6 +1,3 @@
-
-function findMatching(drivers,name) {
-  drivers.filter(function(driver) {
-    return driver.to === name;
-  })
+function findMatching(arr,name) {
+return arr.filter(function(item) { return item.toUpperCase() === name.toUpperCase();});
 }
